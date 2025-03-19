@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyForm</title>
+    <style>
+        body {
+            background-color: #B9D9EB;
+            width: 1000px;
+            border-radius: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Center the container horizontally */
+            margin: 0 auto;
+        }
+        form {
+            text-align: center;
+            width: 80%; /* Adjust the width of the form */
+            max-width: 500px; /* Set maximum width */
+        }
+        /* Design The Box when i will put The Request */
+        input[type="text"] {
+            width: 100%;
+            padding: 40px;
+            font-size: medium;
+        }
+        /* Design The Display Button */
+        input[type="submit"] {
+            padding: 50px 50px;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <h2>Image Name </h2>
+    <form action="/get_image" method="get">
+        <label for="image">Image:</label><br>
+<input type="text" id="image" name="image" required><br><br>
+<input type="submit" value="Get Image">
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/*
+Nadia 1210021
+Rasha 1210382
+*/
+/* First Style The Body of The page */
+body {
+  background-repeat: no-repeat;
+  background-color:#B9D9EB;
+}
+/* Style The TiTil*/
+.title_Style {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* STyle The Shape of Group Member Box */
+.group-members {
+    display: flex;
+    /* Change flex-direction to column */
+    flex-direction: column;
+    /* Make All Object on The Left of The Web page */
+    align-items: left;
+    margin-bottom: 20px;
+}
+.memberGroub-box {
+    width: 40%; /* Set width to 100% to occupy the entire width */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #5F9EA0;
+    margin-bottom: 20px; /* Add margin bottom to create space between member boxes */
+
+}
+.image-box_Object{
+    text-align: center;
+margin-bottom: 40px;
+background -color: #5F9EA0;
+}
+.link_box_objects {
+    text-align: center;
+    font-weight: bold;font-size:18px;
+    background-color:#5F9EA0;
+
+}
+.link-box a {
+    font-weight: bold;
+    border-radius: 200px;
+        font-color:black;
+
+}
